@@ -287,12 +287,21 @@ body.nav-active { overflow: hidden; }
   align-items: center;
   gap: 16px;
 }
-
+.header .logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 .header.active .logo-light,
 .header .logo-dark { display: none; }
 
 .header .logo-light,
-.header.active .logo-dark { display: block; }
+.header.active .logo-dark { display: inline-block; }
+.header .logo-text{
+  display: inline-block;
+}
 
 .nav-open-btn {
   font-size: 3.5rem;
