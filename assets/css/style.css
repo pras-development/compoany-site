@@ -932,6 +932,7 @@ body.nav-active { overflow: hidden; }
   .navbar-link {
     color: var(--white);
     transition: var(--transition-1);
+    font-size: 18px;
   }
 
   .navbar-link:is(:hover, :focus-visible) { opacity: 0.7; }
