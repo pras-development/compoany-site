@@ -540,7 +540,7 @@ body.nav-active { overflow: hidden; }
 
 .about .section-title { margin-block-end: 35px; }
 
-.accordion-card .card-title { padding-block-end: 5px; } 
+.accordion-card .card-title { padding-block-end: 0px; } 
 .accordion-card .card-title .span { color: var(--violet-blue-crayola); }
 .accordion-btn {
   display: flex;
